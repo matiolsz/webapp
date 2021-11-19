@@ -6,7 +6,7 @@ import (
 )
 
 func Home(w http.ResponseWriter, r http.Request) {
-	
+
 }
 
 func main() {
@@ -20,5 +20,5 @@ func main() {
 		fmt.Println(fmt.Sprintf("bites written: %d", n))
 	})
 
-	_ = http.ListenAndServe(":8080",nil)
+	_ = http.ListenAndServe(":8080", nil)
 }
